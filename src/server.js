@@ -1,6 +1,5 @@
 import http from 'node:http'
 
-
 const users = []
 
 const server = http.createServer((request, response) => {

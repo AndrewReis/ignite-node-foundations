@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch src/server.js"
+    "server": "node --watch src/server.js",
+    "node": "node --watch src/streams/index.js"
   },
   "engines": {
     "node": "18.13.0"
